@@ -7,7 +7,7 @@ class RepositoriesController < ApplicationController
   #   end
   #   @repos_array = JSON.parse(resp.body)
   # end
-  # 
+  #
   # def create
   #   resp = Faraday.post("https://api.github.com/user/repos") do |req|
   #     req.body = { 'token': session[:token], 'name': params[:name].to_json, 'Accept': 'application/json' }
